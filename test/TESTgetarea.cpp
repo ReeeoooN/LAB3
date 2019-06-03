@@ -1,10 +1,7 @@
 #include "TESTgeometry.h"
-float getarea(float r)
-{
-    float pl;
-    pl = p * r * r;
-    return pl;
-}
+#include <stdlib.h>
+
+getarea(r);
 
 TEST_CASE("GETAREA", "[AREA]") {
   REQUIRE(getarea(2.2) == 15.20531f);

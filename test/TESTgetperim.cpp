@@ -1,10 +1,7 @@
 #include "TESTgeometry.h"
-float getperim(float r)
-{
-    float pr;
-    pr = 2 * p * r;
-    return pr;
-}
+#include<stdlib.h>
+
+getperim(r);
 
 TEST_CASE("GETPERIM", "[PERIM]") {
   REQUIRE(getperim(3.3) == 20.7345123291015625f);
